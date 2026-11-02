@@ -178,3 +178,9 @@ The repository is public as a showcase of the project's implementation and archi
 - Website: [leejason.dev](https://leejason.dev)
 - LinkedIn: [jason-leee](https://linkedin.com/in/jason-leee)
 - GitHub: [dIwnsgml](https://github.com/dIwnsgml)
+
+## License
+
+WaveNotch is free software, released under the [GNU General Public License, version 3](LICENSE). It comes with no warranty.
+
+Parts of it are adapted from [boring.notch](https://github.com/TheBoredTeam/boring.notch), which uses the same license. See [THIRD_PARTY_NOTICES.md](Notch/THIRD_PARTY_NOTICES.md) for details on that code and on the other open-source software WaveNotch uses.

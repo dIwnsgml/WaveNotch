@@ -152,7 +152,18 @@ struct SettingsView: View {
                                 .frame(maxWidth: .infinity, alignment: .leading)
                                 .padding(.horizontal, 16)
                                 .padding(.top, 4)
-                                .padding(.bottom, 16)
+
+                            // GPL-3.0 section 5(d): interactive programs must show their legal notices.
+                            Link(destination: URL(string: "https://github.com/dIwnsgml/WaveNotch#license")!) {
+                                Text("Free software under GPL-3.0, with no warranty. Licenses and source")
+                                    .font(.system(size: 10))
+                                    .multilineTextAlignment(.leading)
+                            }
+                            .foregroundColor(.secondary)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .padding(.horizontal, 16)
+                            .padding(.top, 2)
+                            .padding(.bottom, 16)
                         }
                         .background(Color(NSColor.windowBackgroundColor)) // Matches the sidebar background natively
                     }

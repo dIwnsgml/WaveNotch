@@ -1,3 +1,8 @@
+// Adapted from boring.notch (boringNotch/observers/DragDetector.swift),
+// Copyright (C) TheBoredTeam, licensed under the GNU General Public License, version 3.
+// https://github.com/TheBoredTeam/boring.notch
+// Changes for WaveNotch are licensed under the same terms. See LICENSE and THIRD_PARTY_NOTICES.md.
+
 import AppKit
 import UniformTypeIdentifiers
 

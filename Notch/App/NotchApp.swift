@@ -5,6 +5,8 @@ import Sparkle
 import PostHog
 import UserNotifications
 
+// undelegateWindow is adapted from boring.notch (boringNotch/components/Notch/BoringNotchSkyLightWindow.swift),
+// licensed under the GNU General Public License, version 3. See LICENSE and THIRD_PARTY_NOTICES.md.
 extension SkyLightOperator {
     func undelegateWindow(_ window: NSWindow) {
         typealias RemoveWindowsFromSpaces = @convention(c) (Int32, CFArray, CFArray) -> Int32
